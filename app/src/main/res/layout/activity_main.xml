@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abmoi.udemydatabase.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/EDname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BC #   :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/EDbcNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the BC #"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BC Amount  :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/EDbcAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the BC Amount"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+      <Button
+          android:id="@+id/SUB_DATE"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="SUBMISSION DATE"/>
+
+<TextView
+    android:id="@+id/SUB_TEXT"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="00-00-00"
+    android:textSize="20dp"
+    android:layout_marginLeft="23dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/BTN_OPENbc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OPEN BC DATE"/>
+
+        <TextView
+            android:id="@+id/OPENbc_TEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00-00-00"
+            android:textSize="20dp"
+            android:layout_marginLeft="49dp"/>
+
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+    <Button
+        android:id="@+id/ADDmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD BC MEMBER"
+        android:layout_marginTop="23dp"
+        android:onClick="REG_CUSTOMER"/>
+
+    <Button
+        android:id="@+id/Show_Members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW MEMBERS"
+        android:layout_marginTop="23dp"/>
+</LinearLayout>
+
+
+
+</LinearLayout>
